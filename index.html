@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes"
+          name="viewport"/>
+    <link href="../static/fil.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta HTTP-EQUIV="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta CONTENT="no-cache" HTTP-EQUIV="Pragma">
+    <meta CONTENT="0" HTTP-EQUIV="Expires">
+    <link href="../static/images/favicon.ico" rel="shortcut icon">
+    <title>Fil8.top</title>
+</head>
+<script>
+    //iframe里后退,返回主页用
+    function defendloop() {
+        if (window != top) {
+            top.location.href = location.href;
+        }
+    }
+
+    // $(document).ready(function(){
+    //     $("#btn1").click(function(){
+    //         $("#btn1").load("/config.ini",function(response,status,xhr){
+    //             alert(xhr.status)
+    //         　　 });
+    //     });
+    // });
+</script>
+
+<body>
+<div class="include" file="/head"></div>
+<div class="container-fluid">
+    <!--主网实时数据-->
+    <div class="include" file="/mainnetinfo"></div>
+    <!--新闻-->
+        {% for news in newslist %}
+         <div class="col-md-6">
+            <div class="page-header">
+                <h4>{{news.title}}
+                    <small style="font-size: 12px">{{news.time}}</small>
+                </h4>
+                <p>{{news.content}} -><a href={{news.url}} target="_blank"> 点击查看</a></p>
+                <img height="180px" src={{news.imgurl}} width="300px">
+            </div>
+        </div>
+        {% endfor %}
+</div>
+<br><br><br><br>
+<div class="include" file="/foot"></div>
+
+</body>
+<script type="text/javascript">
+    $(".include").each(function () {
+        if (!!$(this).attr("file")) {
+            var $includeObj = $(this);
+            $(this).load($(this).attr("file"), function (html) {
+                $includeObj.after(html).remove(); //加载的文件内容写入到当前标签后面并移除当前标签
+            })
+        }
+    });
+</script>
+</html>

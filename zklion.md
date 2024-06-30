@@ -1,5 +1,8 @@
 # [怪盗] ALEO zklion高性能锄头 ubuntu+hiveos部署教程
 
+## 📺怪盗zklion锄头视频教程： 
+https://www.youtube.com/watch?v=K4PSg9bZ6i0
+
 ## 一、 注册 zklion 账户
 
 用以下链接注册, 领先30%+算力
@@ -24,8 +27,6 @@ https://github.com/zklion-miner/Aleo-miner
   
   
 ## 三、HIVEOS飞行表部署:
-
-📺怪盗全视频解析： https://www.youtube.com/watch?v=K4PSg9bZ6i0
 
 文字教程：
 1️⃣ 先到 https://the.hiveos.farm/wallets 添加钱包,输入aleo查找，pool模式的话，地址填入zklion的账户名：

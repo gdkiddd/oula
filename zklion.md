@@ -21,6 +21,8 @@ https://github.com/zklion-miner/Aleo-miner/releases 直接下载aleo-pool-prover
 下载后，pool模式的启动方法：
 ```
 chmod +x aleo-pool-prover
+```
+```
 ./aleo-pool-prover --account gdkiddd --pool wss://aleo.zklion.com:3777 --worker-name Miner01
 ```
 （这里gdkiddd换成你zklion的账户名）

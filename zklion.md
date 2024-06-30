@@ -56,8 +56,11 @@ CUSTOM配置中，
 
   
 ## 四、启动 hiveos飞行表
-下载 hiveos GPU镜像，写入优盘，
+第一次用 HIVEOS 的， 用这个优惠链接注册账户：
+https://hiveon.com?ref=2743196891
+
+然后下载 hiveos GPU镜像，用 etcher刻录到优盘
 https://hiveon.com/zh/install/
 
-然后从优盘启动系统，启动后会自动运行飞行表，自动下载zklion程序并启动， 过一会看到算力值就成功了。
+开机后从优盘启动系统，启动后会自动运行飞行表，自动下载zklion程序并启动， 过一会看到算力值就成功了。
 <img src="https://github.com/gdkiddd/gdkiddd.github.io/blob/main/Zklion/002.png" alt="002"/>

@@ -10,7 +10,10 @@ https://pool.zklion.com/signUp?referralCode=yhQbsd
 
 注册账户后，https://pool.zklion.com/user/miner 在后台绑定自己aleo钱包地址，需要两步验证。
 <img src="https://github.com/gdkiddd/gdkiddd.github.io/blob/main/Zklion/001.png" alt="001"/>
-  
+
+这里可以快速生成自己的 aleo 钱包地址：https://aleo.tools/account
+
+也可以用 https://www.leo.app
 
 ## 二、Ubuntu系统，快速启动锄头:
 https://github.com/zklion-miner/Aleo-miner/releases 直接下载aleo-pool-prover,

@@ -42,14 +42,15 @@ CUSTOM配置中，
 
 钱包模板：%WAL%
 
-矿地址：pool 模式: wss://aleo.zklion.com:3777 solo模式：wss://aleo.zklion.com:3666
+矿地址：pool 模式: wss://aleo.zklion.com:3777 
+solo模式：wss://aleo.zklion.com:3666
 
 密码：不填
 
 其他配置参数：pool模式的话不填，solo模式的话填：solo
 
-<img width="600" height="600" src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/103.png" alt="103"/>
-<img width="600" height="600" src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/104.png" alt="104"/>
+<img src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/103.png" alt="103"/>
+<img src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/104.png" alt="104"/>
 
 输入飞行表名称后， 创建飞行表后，就算成功了。
 <img src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/105.png" alt="105"/>

@@ -7,7 +7,7 @@ https://pool.zklion.com/signUp?referralCode=yhQbsd
 
 注册账户后，https://pool.zklion.com/user/miner 在后台绑定自己aleo钱包地址，需要两步验证。
 <img src="https://github.com/gdkiddd/gdkiddd.github.io/blob/main/Zklion/001.png" alt="001"/>
-
+  
 
 ## 二、Ubuntu系统，快速启动锄头:
 https://github.com/zklion-miner/Aleo-miner/releases 直接下载aleo-pool-prover,
@@ -22,7 +22,8 @@ chmod +x aleo-pool-prover
 具体方法看这里：
 https://github.com/zklion-miner/Aleo-miner
   
-## 三、HIVEOS锄头部署教程:
+  
+## 三、HIVEOS飞行表部署:
 
 📺怪盗全视频解析： https://www.youtube.com/watch?v=K4PSg9bZ6i0
 
@@ -56,5 +57,6 @@ CUSTOM配置中，
 ## 四、启动 hiveos飞行表
 下载 hiveos GPU镜像，写入优盘，
 https://hiveon.com/zh/install/
+
 然后从优盘启动系统，启动后会自动运行飞行表，自动下载zklion程序并启动， 过一会看到算力值就成功了。
 <img src="https://github.com/gdkiddd/gdkiddd.github.io/blob/main/Zklion/002.png" alt="002"/>

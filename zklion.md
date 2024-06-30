@@ -30,7 +30,7 @@ https://github.com/zklion-miner/Aleo-miner
 
 文字教程：
 1️⃣ 先到 https://the.hiveos.farm/wallets 添加钱包,输入aleo查找，pool模式的话，地址填入zklion的账户名：
-<img width="600" height="500" src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/101.png" alt="101"/>
+<img src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/101.png" alt="101"/>
 
 添加飞行表，选ALEO和刚才创建的钱包， 挖K软件选custom，然后点旁边的“设定挖K软件配置”
 <img src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/102.png" alt="102"/>

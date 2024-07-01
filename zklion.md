@@ -43,7 +43,7 @@ https://github.com/zklion-miner/Aleo-miner
 CUSTOM配置中，
 名称：zklion-miner 
 
-安装链接： github中的zklion_miner.tar.gz程序链接, 
+安装链接： 从这里：https://github.com/zklion-miner/Aleo-miner/releases 找到zklion_miner.tar.gz的链接, 
 
 钱包模板：%WAL%
 
@@ -70,3 +70,6 @@ https://hiveon.com/zh/install/
 
 开机后从优盘启动系统，启动后会自动运行飞行表，自动下载zklion程序并启动， 过一会看到算力值就成功了。
 <img src="https://github.com/gdkiddd/gdkiddd.github.io/blob/main/Zklion/002.png" alt="002"/>
+
+注意： 如果启动后提示 github 程序下载失败， 可能是你没有翻墙，可在这里找到备用锄头链接：
+http://80.251.210.232/zklion-miner/

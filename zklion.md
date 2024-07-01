@@ -9,7 +9,7 @@ https://www.youtube.com/watch?v=K4PSg9bZ6i0
 https://pool.zklion.com/signUp?referralCode=yhQbsd
 
 注册账户后，https://pool.zklion.com/user/miner 在后台绑定自己aleo钱包地址，需要两步验证。
-<img src="https://github.com/gdkiddd/gdkiddd.github.io/blob/main/Zklion/001.png" width="500" alt="001"/>
+<img src="https://github.com/gdkiddd/gdkiddd.github.io/blob/main/Zklion/001.png" width="800" alt="001"/>
 
 这里可以快速生成自己的 aleo 钱包地址：https://aleo.tools/account
 
@@ -35,10 +35,10 @@ https://github.com/zklion-miner/Aleo-miner
 
 文字教程：
 1️⃣ 先到 https://the.hiveos.farm/wallets 添加钱包,输入aleo查找，pool模式的话，地址填入zklion的账户名：
-<img src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/101.png" width="500" alt="101"/>
+<img src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/101.png" width="800" alt="101"/>
 
 添加飞行表，选ALEO和刚才创建的钱包， 挖K软件选custom，然后点旁边的“设定挖K软件配置”
-<img src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/102.png"  width="500"  alt="102"/>
+<img src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/102.png"  width="800"  alt="102"/>
 
 CUSTOM配置中，
 名称：zklion-miner 
@@ -54,11 +54,11 @@ solo模式：wss://aleo.zklion.com:3666
 
 其他配置参数：pool模式的话不填，solo模式的话填：solo
 
-<img src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/103.png" alt="103"/>
-<img src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/104.png" alt="104"/>
+<img src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/103.png" width="800" alt="103"/>
+<img src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/104.png" width="800" alt="104"/>
 
 输入飞行表名称后， 创建飞行表后，就算成功了。
-<img src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/105.png" alt="105"/>
+<img src="https://github.com/zklion-miner/Aleo-miner/blob/master/HiveOS/105.png" width="800" alt="105"/>
 
   
 ## 四、启动 hiveos飞行表
@@ -69,7 +69,7 @@ https://hiveon.com?ref=2743196891
 https://hiveon.com/zh/install/
 
 开机后从优盘启动系统，启动后会自动运行飞行表，自动下载zklion程序并启动， 过一会看到算力值就成功了。
-<img src="https://github.com/gdkiddd/gdkiddd.github.io/blob/main/Zklion/002.png" alt="002"/>
+<img src="https://github.com/gdkiddd/gdkiddd.github.io/blob/main/Zklion/002.png" width="800" alt="002"/>
 
 注意： 如果启动后提示 github 程序下载失败， 可能是你没有翻墙，可在这里找到备用锄头链接， 去更新飞行表中的安装链接：
 

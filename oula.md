@@ -19,6 +19,7 @@
 需要ubuntu22以上， cuda12.3以上的环境
 可用以下代码查看：
 ```nvidia-smi```
+
 下载锄头：
 [http://23.106.143.181/oula/oula_miner-v0.1.0.tar.gz](http://23.106.143.181/oula/oula_miner-v0.1.0.tar.gz)
 
@@ -34,26 +35,22 @@ chmod +x oula-pool-prover
 
 具体方法看这里：
 https://github.com/oula-miner/Aleo-miner
-  
+
+
   
 ## 三、HIVEOS飞行表部署:
 
-文字教程：
 1️⃣ 先到 https://the.hiveos.farm/wallets 添加钱包,输入aleo查找，pool模式的话，地址填入oula的账户名：
 <img width="703" alt="image" src="https://github.com/user-attachments/assets/68b35ff8-2062-4715-ab3f-f146fd72f452">
 
-添加飞行表，现复制下面代码，然后点击【添加自剪切板】
-飞行表一键配置：
+添加飞行表：
+复制下面代码，然后点击hiveos-飞行表-界面中的【添加自剪切板】完成一键配置：
 ```
 {"name":"oula_miner","isFavorite":true,"items":[{"coin":"ALEO","pool_ssl":false,"wal_id":10333513,"dpool_ssl":false,"miner":"custom","miner_alt":"oula_miner","miner_config":{"url":"wss://aleo.oula.network:6666","algo":"aleo","miner":"oula_miner","template":"%WAL%","install_url":"http://23.106.143.181/oula/oula_miner-v0.1.0.tar.gz"},"pool_geo":[]}]}
 ```
-其他配置参数：solo模式的话填solo，pool不填
-
-<img src="https://github.com/oula-miner/Aleo-miner/blob/master/HiveOS/103.png" width="800" alt="103"/>
-<img src="https://github.com/oula-miner/Aleo-miner/blob/master/HiveOS/104.png" width="800" alt="104"/>
-
 输入飞行表名称后， 创建飞行表后，就算成功了。
-<img src="https://github.com/oula-miner/Aleo-miner/blob/master/HiveOS/105.png" width="800" alt="105"/>
+<img width="1217" alt="image" src="https://github.com/user-attachments/assets/21144864-a31a-45dd-9b7d-fa77e945e3b5">
+
 
   
 ## 四、启动 hiveos飞行表
@@ -69,6 +66,9 @@ nvidia-driver-update
 ```
 开机后从优盘启动系统，启动后会自动运行飞行表，自动下载oula程序并启动， 过一会看到算力值就成功了。
 <img src="https://github.com/gdkiddd/gdkiddd.github.io/blob/main/oula/002.png" width="800" alt="002"/>
+
 如果启动后提示 github 程序下载失败， 可能是你没有翻墙。
+启动后过10分钟左右， 等算力稳定，以下为启动运行成功后，显示算力的画面：
+![telegram-cloud-photo-size-5-6194924926851466377-y](https://github.com/user-attachments/assets/758270a2-11d5-47b1-90d9-edddc5a0dc04)
 
 

@@ -23,7 +23,7 @@
 ```nvidia-smi```
 
 下载锄头：
-[http://23.106.143.181/oula/oula_miner-v0.1.0.tar.gz](http://23.106.143.181/oula/oula_miner-v0.1.0.tar.gz)
+[https://github.com/oula-network/aleo/releases](https://github.com/oula-network/aleo/releases)
 
 下载后，授权：
 ```
@@ -36,7 +36,7 @@ chmod +x oula-pool-prover
 （这里gdkiddd可换成你oula的账户名）
 
 具体方法看这里：
-https://github.com/oula-miner/Aleo-miner
+[https://oula-faq.gitbook.io/zh/kai-shi-wa-kuang/publish-your-docs](https://oula-faq.gitbook.io/zh/kai-shi-wa-kuang/publish-your-docs)
 
 
   
@@ -48,7 +48,7 @@ https://github.com/oula-miner/Aleo-miner
 添加飞行表：
 复制下面代码，然后点击hiveos-飞行表-【添加自剪切板】，完成一键配置：
 ```
-{"name":"oula_miner","isFavorite":true,"items":[{"coin":"ALEO","pool_ssl":false,"wal_id":10333513,"dpool_ssl":false,"miner":"custom","miner_alt":"oula_miner","miner_config":{"url":"wss://aleo.oula.network:6666","algo":"aleo","miner":"oula_miner","template":"%WAL%","install_url":"http://23.106.143.181/oula/oula_miner-v0.1.0.tar.gz"},"pool_geo":[]}]}
+{"name":"oula_miner","isFavorite":true,"items":[{"coin":"ALEO","pool_ssl":false,"wal_id":10333513,"dpool_ssl":false,"miner":"custom","miner_alt":"oula_miner","miner_config":{"url":"wss://aleo.oula.network:6666","algo":"aleo","miner":"oula_miner","template":"%WAL%","install_url":"http://23.106.143.181/oula/oula_miner-v0.2.0.tar.gz"},"pool_geo":[]}]}
 ```
 输入飞行表名称后， 创建飞行表后，就算成功了。
 <img width="1217" alt="image" src="https://github.com/user-attachments/assets/21144864-a31a-45dd-9b7d-fa77e945e3b5">

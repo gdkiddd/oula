@@ -41,11 +41,16 @@ chmod +x oula-pool-prover
 
   
 ## 三、HIVEOS飞行表部署:
+环境要求：hiveos-0.6-227-stable（Ubuntu 20.04）
+1️⃣ 首先检查hiveos版本是否是基于Ubuntu 20.04、执行如下命令
+```hostnamectl```
+如果是的话,升级显卡驱动
+```nvidia-driver-update```
 
-1️⃣ 先到 https://the.hiveos.farm/wallets 添加钱包，输入aleo查找：
+2️⃣ 添加钱包:  [https://the.hiveos.farm/wallets](https://the.hiveos.farm/wallets) ，输入aleo查找：
 <img width="598" alt="image" src="https://github.com/user-attachments/assets/de7f1a51-fb24-40fa-9447-8b030636a4be">
 
-添加飞行表：
+3️⃣ 添加飞行表：
 复制下面代码，然后点击hiveos-飞行表-【添加自剪切板】，完成一键配置：
 ```
 {"name":"oula_miner","isFavorite":true,"items":[{"coin":"ALEO","pool_ssl":false,"wal_id":10333513,"dpool_ssl":false,"miner":"custom","miner_alt":"oula_miner","miner_config":{"url":"wss://aleo.oula.network:6666","algo":"aleo","miner":"oula_miner","template":"%WAL%","install_url":"http://23.106.143.181/oula/oula_miner-v0.2.0.tar.gz"},"pool_geo":[]}]}

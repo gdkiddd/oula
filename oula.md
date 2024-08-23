@@ -44,6 +44,7 @@ chmod +x oula-pool-prover
 
 ## 三、HIVEOS飞行表部署:
 环境要求：hiveos-0.6-227-stable（Ubuntu 20.04）
+
 1️⃣ 首先检查hiveos版本是否是基于Ubuntu 20.04、执行如下命令
 ```hostnamectl```
 如果是的话,升级显卡驱动

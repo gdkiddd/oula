@@ -17,6 +17,7 @@
 也可以用LEO wallet： [https://www.leo.app](https://www.leo.app)
 
 
+
 ## 二、Ubuntu系统，快速启动锄头:
 需要ubuntu22以上， cuda12.3以上的环境
 可用以下代码查看：
@@ -39,7 +40,8 @@ chmod +x oula-pool-prover
 [https://oula-faq.gitbook.io/zh/kai-shi-wa-kuang/publish-your-docs](https://oula-faq.gitbook.io/zh/kai-shi-wa-kuang/publish-your-docs)
 
 
-  
+
+
 ## 三、HIVEOS飞行表部署:
 环境要求：hiveos-0.6-227-stable（Ubuntu 20.04）
 1️⃣ 首先检查hiveos版本是否是基于Ubuntu 20.04、执行如下命令
@@ -59,7 +61,8 @@ chmod +x oula-pool-prover
 <img width="1217" alt="image" src="https://github.com/user-attachments/assets/21144864-a31a-45dd-9b7d-fa77e945e3b5">
 
 
-  
+
+
 ## 四、启动 hiveos飞行表
 第一次用 HIVEOS 的， 用这个优惠链接注册账户：
 [https://hiveon.com?ref=2743196891](https://hiveon.com?ref=2743196891)

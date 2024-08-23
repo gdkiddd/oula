@@ -12,7 +12,7 @@
 
 注册账户后， 在后台绑定自己aleo钱包地址，需要两步验证。（为了之后提现用，测试可跳过）
 
-这里可以快速生成自己的 aleo 钱包地址：[https://aleo.tools/account](https://aleo.tools/account)
+这里可以快速生成自己的 aleo 钱包地址：[https://www.provable.tools/account](https://www.provable.tools/account)
 
 也可以用LEO wallet： [https://www.leo.app](https://www.leo.app)
 

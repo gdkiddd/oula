@@ -47,8 +47,11 @@ chmod +x oula-pool-prover
 
 1️⃣ 首先检查hiveos版本是否是基于Ubuntu 20.04、执行如下命令
 ```hostnamectl```
-如果是的话,升级显卡驱动
-```nvidia-driver-update```
+
+如果ubuntu版本正确,则升级显卡驱动(必须!)
+```
+nvidia-driver-update
+```
 
 2️⃣ 添加钱包:  [https://the.hiveos.farm/wallets](https://the.hiveos.farm/wallets) ，输入aleo查找：
 <img width="598" alt="image" src="https://github.com/user-attachments/assets/de7f1a51-fb24-40fa-9447-8b030636a4be">

@@ -61,6 +61,8 @@ nvidia-driver-update
 ```
 {"name":"oula_miner","isFavorite":true,"items":[{"coin":"ALEO","pool_ssl":false,"wal_id":10333513,"dpool_ssl":false,"miner":"custom","miner_alt":"oula_miner","miner_config":{"url":"wss://aleo.oula.network:6666","algo":"aleo","miner":"oula_miner","template":"%WAL%","install_url":"http://23.106.143.181/oula/oula_miner-v0.3.0.tar.gz"},"pool_geo":[]}]}
 ```
+锄头下载链接为: [http://23.106.143.181/oula/oula_miner-v0.3.0.tar.gz](http://23.106.143.181/oula/oula_miner-v0.3.0.tar.gz)
+
 输入飞行表名称后， 创建飞行表后，就算成功了。
 <img width="1217" alt="image" src="https://github.com/user-attachments/assets/21144864-a31a-45dd-9b7d-fa77e945e3b5">
 

@@ -1,5 +1,5 @@
 
-## [怪盗] ALEO oula高性能锄头 ubuntu+hiveos部署教程
+## [怪盗] ALEO oula高性能锄头 ubuntu+hiveos部署教程v0.3
 
 ### 📺怪盗oula锄头视频教程（旧版，现已升级为oula品牌，但方法大同小异）： 
 [https://www.youtube.com/watch?v=K4PSg9bZ6i0](https://www.youtube.com/watch?v=K4PSg9bZ6i0)
@@ -59,7 +59,7 @@ nvidia-driver-update
 3️⃣ 添加飞行表：
 复制下面代码，然后点击hiveos-飞行表-【添加自剪切板】，完成一键配置：
 ```
-{"name":"oula_miner","isFavorite":true,"items":[{"coin":"ALEO","pool_ssl":false,"wal_id":10333513,"dpool_ssl":false,"miner":"custom","miner_alt":"oula_miner","miner_config":{"url":"wss://aleo.oula.network:6666","algo":"aleo","miner":"oula_miner","template":"%WAL%","install_url":"http://23.106.143.181/oula/oula_miner-v0.2.0.tar.gz"},"pool_geo":[]}]}
+{"name":"oula_miner","isFavorite":true,"items":[{"coin":"ALEO","pool_ssl":false,"wal_id":10333513,"dpool_ssl":false,"miner":"custom","miner_alt":"oula_miner","miner_config":{"url":"wss://aleo.oula.network:6666","algo":"aleo","miner":"oula_miner","template":"%WAL%","install_url":"http://23.106.143.181/oula/oula_miner-v0.3.0.tar.gz"},"pool_geo":[]}]}
 ```
 输入飞行表名称后， 创建飞行表后，就算成功了。
 <img width="1217" alt="image" src="https://github.com/user-attachments/assets/21144864-a31a-45dd-9b7d-fa77e945e3b5">

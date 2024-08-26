@@ -1,5 +1,5 @@
 
-## [怪盗] ALEO oula高性能锄头 ubuntu+hiveos部署教程v0.3
+## [怪盗] ALEO oula高性能锄头 ubuntu+hiveos部署教程v1.8
 
 ### 📺怪盗oula锄头视频教程（旧版，现已升级为oula品牌，但方法大同小异）： 
 [https://www.youtube.com/watch?v=K4PSg9bZ6i0](https://www.youtube.com/watch?v=K4PSg9bZ6i0)

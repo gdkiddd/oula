@@ -50,14 +50,14 @@ chmod +x oula-pool-prover
 ./oula-pool-prover --pool wss://aleo.oula.network:6666 --account kidcdf --worker-name worker01
 ```
 （以上kidcdf为测试账号， 可换成你oula注册的子账户名）
+![image](https://github.com/user-attachments/assets/9d1aeb8b-0421-429e-be4f-cf4f70e73f66)
 
 启动后,等待⼏分钟后，可在Oula后台查看到算⼒情况.
 
 更多方法：
 [https://oula-faq.gitbook.io/zh/kai-shi-wa-kuang/publish-your-docs](https://oula-faq.gitbook.io/zh/kai-shi-wa-kuang/publish-your-docs)
 
-______________________________________________________________________________________________________________________________________
-
+//*************************************************************************************************************************************************//
 
 ## 三、HIVEOS部署流程:
 第一次用 HIVEOS的， 先用这个注册账户：

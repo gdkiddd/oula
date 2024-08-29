@@ -1,11 +1,14 @@
 ## HiveOS新人首次使用教程(安装+下载+启动)
+
 ### 1.注册账户链接:
 [https://hiveon.com?ref=2743196891](https://hiveon.com?ref=2743196891)
+
 
 ### 2.下载 hiveos GPU镜像，用etcher刻录到优盘
 [https://hiveon.com/zh/install/](https://hiveon.com/zh/install/)
 
 ![image](https://github.com/user-attachments/assets/a8bd6200-41e7-44a5-a4cd-44114cbdaa3c)
+
 
 ### 3.登录HiveOS网站，点击矿场
 （若没有请点击右上⾓+进⾏创建）
@@ -28,13 +31,16 @@
 
 ![image](https://github.com/user-attachments/assets/eec0bf31-e5d2-4e71-bbf6-1543087e54c2)
 
+
 ### 4.启动HiveOS系统
 使用刻录好的HIVEOS的优盘, 开机启动进入HIVEOS
+
 4.1 输⼊```firstrun -f```, 进⾏账号绑定操作
 
 ![image](https://github.com/user-attachments/assets/69a45448-63d8-4332-9a6f-8bfab6d521bb)
 
 4.2 按提示输⼊URL（为空）、RIG ID、Password(密码)
+
 
 ### 5.更新显卡驱动
 登录HiveOS官⽹，进⼊刚添加好的矿机页⾯，点击上⽅菜单“运⾏命令”

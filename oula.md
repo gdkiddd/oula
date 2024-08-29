@@ -5,7 +5,7 @@
 [https://www.youtube.com/watch?v=K4PSg9bZ6i0](https://www.youtube.com/watch?v=K4PSg9bZ6i0)
 
 
-## 一、 注册 oula 账户
+## 一、 注册oula账户
 
 点击以下怪盗邀请链接注册 (收不到验证码的话, 可能在垃圾邮箱中)：
 [https://oula.network/zh/register?invitation=SDDV6L](https://oula.network/zh/register?invitation=SDDV6L)
@@ -20,14 +20,31 @@
 
 
 
-## 二、Ubuntu系统，快速启动锄头:
+## 二、Ubuntu系统:
+### 检查环境
 需要ubuntu22以上， cuda12.3以上的环境
-可用以下代码查看：
-```nvidia-smi```
+输⼊```hostnamectl```查看ubuntu版本号,
+![image](https://github.com/user-attachments/assets/5ad08c15-3844-4fd7-b46c-35db1c332929)
+输入```nvidia-smi```查看cuda和显卡驱动版本,
+如果不满⾜操作先卸载驱动:
+输⼊```nvidia-uninstall -s -q``` 或 ```apt --purge remove nvidia*``` 或```apt autoremove```，不同系统版本或显卡输⼊
+的命令会有不同。
+### 下载CUDA&驱动并安装:
+```
+wget https://developer.download.nvidia.com/compute/cuda/12.6.0/local_installers/cuda_12.6.0_560.28.03_linux.run
+```
+授权
+```
+chmod +x cuda_12.6.0_560.28.03_linux.run
+```
+安装
+```
+./cuda_12.6.0_560.28.03_linux.run --silent --toolkit --driver
+```
 
-下载锄头：
-最新版本详见： [https://github.com/oula-network/aleo/releases](https://github.com/oula-network/aleo/releases)
-以下为v1.8为例：
+### 下载锄头
+最新版本：[https://github.com/oula-network/aleo/releases](https://github.com/oula-network/aleo/releases)
+以下为v1.8为例,实际请更换为最新版本链接:
 ```
 wget https://github.com/oula-network/aleo/releases/download/v1.8/oula-pool-prover
 ```
@@ -39,12 +56,14 @@ chmod +x oula-pool-prover
 ```
 ./oula-pool-prover --pool wss://aleo.oula.network:6666 --account kidcdf --worker-name worker01
 ```
-（以上为测试账号， --account后的名字，换成你oula注册的子账户名）
+（以上kidcdf为测试账号， 可换成你oula注册的子账户名）
 
-具体方法看这里：
+启动后,等待⼏分钟后，可在Oula后台查看到算⼒情况.
+
+更多方法：
 [https://oula-faq.gitbook.io/zh/kai-shi-wa-kuang/publish-your-docs](https://oula-faq.gitbook.io/zh/kai-shi-wa-kuang/publish-your-docs)
 
-
+______________________________________________________________________________________________________________________________________
 
 
 ## 三、HIVEOS飞行表部署:

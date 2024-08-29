@@ -61,10 +61,6 @@ chmod +x oula-pool-prover
 
 **********************************************************************************************************************************
 
-
-
-**********************************************************************************************************************************
-
 ## 三、HIVEOS部署流程:
 第一次用 HIVEOS的，看这里安装和启动:
 
@@ -73,7 +69,9 @@ chmod +x oula-pool-prover
 环境要求：hiveos-0.6-227-stable（Ubuntu 20.04）
 
 ### 1️⃣ 检查hiveos版本是否是基于Ubuntu 20.04:
-```hostnamectl```
+```
+hostnamectl
+```
 
 如果ubuntu版本正确,则升级显卡驱动(必须!)
 ```
@@ -118,7 +116,9 @@ nvidia-driver-update
 
 ![telegram-cloud-photo-size-5-6194924926851466377-y](https://github.com/user-attachments/assets/758270a2-11d5-47b1-90d9-edddc5a0dc04)
 
-## 疑难解答:
+## 其他:
+Aleo资讯: [https://fil8.top](https://fil8.top), 或关注公众号:怪盗KIDDD, 回复: aleo
+
 咨询怪盗:  [https://t.me/gdkiddd](https://t.me/gdkiddd)
 
-aleoAsic: [https://aleoasic.com](https://aleoasic.com)
+AleoAsic: [https://aleoasic.com](https://aleoasic.com)

@@ -61,7 +61,9 @@ chmod +x oula-pool-prover
 
 ## 三、HIVEOS部署流程:
 第一次用 HIVEOS的，看这里安装和启动:
+
 [https://github.com/gdkiddd/oula/blob/main/hiveos_first.md](https://github.com/gdkiddd/oula/blob/main/hiveos_first.md)
+
 环境要求：hiveos-0.6-227-stable（Ubuntu 20.04）
 
 ### 1️⃣ 检查hiveos版本是否是基于Ubuntu 20.04:
@@ -72,7 +74,9 @@ chmod +x oula-pool-prover
 nvidia-driver-update
 ```
 
-### 2️⃣ 添加钱包:  [https://the.hiveos.farm/wallets](https://the.hiveos.farm/wallets) ，输入aleo查找：
+### 2️⃣ 添加钱包
+[https://the.hiveos.farm/wallets](https://the.hiveos.farm/wallets) ，输入aleo查找：
+
 <img width="598" alt="image" src="https://github.com/user-attachments/assets/de7f1a51-fb24-40fa-9447-8b030636a4be">
 
 ### 3️⃣ 添加飞行表：
@@ -91,6 +95,7 @@ nvidia-driver-update
 "pool_geo":[]}]}
 ```
 点击hiveos-飞行表-添加自【剪切板】，可一键配置：
+
 ![image](https://github.com/user-attachments/assets/7cc98dfb-3236-4172-9dfc-2718713dda63)
 输入飞行表名称， 创建飞行表后，就算成功了。
 
@@ -104,8 +109,10 @@ nvidia-driver-update
 如果启动后提示 github 程序下载失败， 可能是你没有翻墙。
 
 启动后过10分钟左右， 等算力稳定，以下为启动运行成功后，显示算力的画面：
+
 ![telegram-cloud-photo-size-5-6194924926851466377-y](https://github.com/user-attachments/assets/758270a2-11d5-47b1-90d9-edddc5a0dc04)
 
 ## 疑难解答:
 咨询怪盗:  [https://t.me/gdkiddd](https://t.me/gdkiddd)
+
 aleoAsic: [https://aleoasic.com](https://aleoasic.com)

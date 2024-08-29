@@ -60,12 +60,8 @@ chmod +x oula-pool-prover
 //**********************************************************************************************************************************//
 
 ## 三、HIVEOS部署流程:
-第一次用 HIVEOS的， 先用这个注册账户：
-[https://hiveon.com?ref=2743196891](https://hiveon.com?ref=2743196891)
-
-下载 hiveos GPU镜像，用etcher刻录到优盘
-[https://hiveon.com/zh/install/](https://hiveon.com/zh/install/)
-
+第一次用 HIVEOS的，看这里安装和启动:
+[https://github.com/gdkiddd/oula/blob/main/hiveos_first.md](https://github.com/gdkiddd/oula/blob/main/hiveos_first.md)
 环境要求：hiveos-0.6-227-stable（Ubuntu 20.04）
 
 ### 1️⃣ 检查hiveos版本是否是基于Ubuntu 20.04:

@@ -7,14 +7,15 @@
 
 ## 一、 注册 oula 账户
 
-用以下内部邀请链接注册, 领先30%+算力：
+点击以下怪盗邀请链接注册 (收不到验证码的话, 可能在垃圾邮箱中)：
 [https://oula.network/zh/register?invitation=SDDV6L](https://oula.network/zh/register?invitation=SDDV6L)
 
-注册账户后， 在后台绑定自己aleo钱包地址，需要两步验证。（为了之后提现用，测试可跳过）
+登录后台-子账户管理-添加一个子账户名,这个就是挖矿账户,之后会用到.
 
-这里可以快速生成自己的 aleo 钱包地址：[https://www.provable.tools/account](https://www.provable.tools/account)
-
-也可以用LEO wallet： [https://www.leo.app](https://www.leo.app)
+提现:（仅测试锄头的话可跳过）
+登录后台-付款设置-绑定自己aleo钱包地址，要先开通谷歌验证。
+快速生成自己的 aleo 钱包地址：[https://www.provable.tools/account](https://www.provable.tools/account)
+也可以用LEO wallet(网页版和手机都有)： [https://www.leo.app](https://www.leo.app)
 
 
 
@@ -35,9 +36,9 @@ chmod +x oula-pool-prover
 ```
 启动锄头
 ```
-./oula-pool-prover --pool wss://aleo.oula.network:6666 --account gdkiddd --worker-name worker01
+./oula-pool-prover --pool wss://aleo.oula.network:6666 --account kidcdf --worker-name worker01
 ```
-（这里gdkiddd可换成你oula的账户名）
+（以上为测试账号， --account后的名字，换成你oula注册的子账户名）
 
 具体方法看这里：
 [https://oula-faq.gitbook.io/zh/kai-shi-wa-kuang/publish-your-docs](https://oula-faq.gitbook.io/zh/kai-shi-wa-kuang/publish-your-docs)

@@ -33,12 +33,8 @@
 ```
 wget https://developer.download.nvidia.com/compute/cuda/12.6.0/local_installers/cuda_12.6.0_560.28.03_linux.run
 ```
-授权
 ```
 chmod +x cuda_12.6.0_560.28.03_linux.run
-```
-安装
-```
 ./cuda_12.6.0_560.28.03_linux.run --silent --toolkit --driver
 ```
 
@@ -48,12 +44,9 @@ chmod +x cuda_12.6.0_560.28.03_linux.run
 ```
 wget https://github.com/oula-network/aleo/releases/download/v1.8/oula-pool-prover
 ```
-下载后，授权：
+启动锄头：
 ```
 chmod +x oula-pool-prover
-```
-启动锄头
-```
 ./oula-pool-prover --pool wss://aleo.oula.network:6666 --account kidcdf --worker-name worker01
 ```
 （以上kidcdf为测试账号， 可换成你oula注册的子账户名）

@@ -62,7 +62,7 @@ nvidia-driver-update
 <img width="598" alt="image" src="https://github.com/user-attachments/assets/de7f1a51-fb24-40fa-9447-8b030636a4be">
 
 3️⃣ 添加飞行表：
-复制下面代码，然后点击hiveos-飞行表-【添加自剪切板】，完成一键配置：
+复制下面代码
 ```
 {"name":"oula_miner",
 "isFavorite":true,
@@ -76,10 +76,10 @@ nvidia-driver-update
 "install_url":"http://23.106.143.181/oula/oula_miner-v0.3.0.tar.gz"},
 "pool_geo":[]}]}
 ```
-锄头下载链接为: [http://23.106.143.181/oula/oula_miner-v0.3.0.tar.gz](http://23.106.143.181/oula/oula_miner-v0.3.0.tar.gz)
+点击hiveos-飞行表-添加自【剪切板】，可一键配置：
+![image](https://github.com/user-attachments/assets/7cc98dfb-3236-4172-9dfc-2718713dda63)
+输入飞行表名称， 创建飞行表后，就算成功了。
 
-输入飞行表名称后， 创建飞行表后，就算成功了。
-<img width="1217" alt="image" src="https://github.com/user-attachments/assets/21144864-a31a-45dd-9b7d-fa77e945e3b5">
 
 
 

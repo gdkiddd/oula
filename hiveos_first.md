@@ -4,6 +4,7 @@
 
 ### 2.下载 hiveos GPU镜像，用etcher刻录到优盘
 [https://hiveon.com/zh/install/](https://hiveon.com/zh/install/)
+
 ![image](https://github.com/user-attachments/assets/a8bd6200-41e7-44a5-a4cd-44114cbdaa3c)
 
 ### 3.登录HiveOS网站，点击矿场

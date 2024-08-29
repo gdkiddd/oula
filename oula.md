@@ -59,10 +59,16 @@ chmod +x oula-pool-prover
 ______________________________________________________________________________________________________________________________________
 
 
-## 三、HIVEOS飞行表部署:
+## 三、HIVEOS部署流程:
+第一次用 HIVEOS的， 先用这个注册账户：
+[https://hiveon.com?ref=2743196891](https://hiveon.com?ref=2743196891)
+
+下载 hiveos GPU镜像，用etcher刻录到优盘
+[https://hiveon.com/zh/install/](https://hiveon.com/zh/install/)
+
 环境要求：hiveos-0.6-227-stable（Ubuntu 20.04）
 
-1️⃣ 首先检查hiveos版本是否是基于Ubuntu 20.04、执行如下命令
+### 1️⃣ 检查hiveos版本是否是基于Ubuntu 20.04:
 ```hostnamectl```
 
 如果ubuntu版本正确,则升级显卡驱动(必须!)
@@ -70,10 +76,10 @@ ________________________________________________________________________________
 nvidia-driver-update
 ```
 
-2️⃣ 添加钱包:  [https://the.hiveos.farm/wallets](https://the.hiveos.farm/wallets) ，输入aleo查找：
+### 2️⃣ 添加钱包:  [https://the.hiveos.farm/wallets](https://the.hiveos.farm/wallets) ，输入aleo查找：
 <img width="598" alt="image" src="https://github.com/user-attachments/assets/de7f1a51-fb24-40fa-9447-8b030636a4be">
 
-3️⃣ 添加飞行表：
+### 3️⃣ 添加飞行表：
 复制下面代码
 ```
 {"name":"oula_miner",
@@ -92,16 +98,7 @@ nvidia-driver-update
 ![image](https://github.com/user-attachments/assets/7cc98dfb-3236-4172-9dfc-2718713dda63)
 输入飞行表名称， 创建飞行表后，就算成功了。
 
-
-
-
-
-## 四、启动 hiveos飞行表
-第一次用 HIVEOS 的， 用这个优惠链接注册账户：
-[https://hiveon.com?ref=2743196891](https://hiveon.com?ref=2743196891)
-
-然后下载 hiveos GPU镜像，用 etcher刻录到优盘
-[https://hiveon.com/zh/install/](https://hiveon.com/zh/install/)
+### 4️⃣ 启动 hiveos飞行表
 
 运行前先升级hiveos显卡驱动
 ```
@@ -113,4 +110,6 @@ nvidia-driver-update
 启动后过10分钟左右， 等算力稳定，以下为启动运行成功后，显示算力的画面：
 ![telegram-cloud-photo-size-5-6194924926851466377-y](https://github.com/user-attachments/assets/758270a2-11d5-47b1-90d9-edddc5a0dc04)
 
-
+## 疑难解答:
+咨询怪盗:  [https://t.me/gdkiddd](https://t.me/gdkiddd)
+aleoAsic: [https://aleoasic.com](https://aleoasic.com)

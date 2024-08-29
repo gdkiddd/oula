@@ -10,7 +10,8 @@
 点击以下怪盗邀请链接注册 (收不到验证码的话, 可能在垃圾邮箱中)：
 [https://oula.network/zh/register?invitation=SDDV6L](https://oula.network/zh/register?invitation=SDDV6L)
 
-登录后台-子账户管理-添加一个子账户名,这个就是挖矿账户,之后会用到.
+登录后台-子账户管理-添加一个子账户名,这个就是挖矿账户
+![image](https://github.com/user-attachments/assets/5f1779c8-a7e3-4c8a-bae3-5f41ba87578d)
 
 提现:（仅测试锄头的话可跳过）
 登录后台-付款设置-绑定自己aleo钱包地址，要先开通谷歌验证。
@@ -63,7 +64,17 @@ nvidia-driver-update
 3️⃣ 添加飞行表：
 复制下面代码，然后点击hiveos-飞行表-【添加自剪切板】，完成一键配置：
 ```
-{"name":"oula_miner","isFavorite":true,"items":[{"coin":"ALEO","pool_ssl":false,"wal_id":10333513,"dpool_ssl":false,"miner":"custom","miner_alt":"oula_miner","miner_config":{"url":"wss://aleo.oula.network:6666","algo":"aleo","miner":"oula_miner","template":"%WAL%","install_url":"http://23.106.143.181/oula/oula_miner-v0.3.0.tar.gz"},"pool_geo":[]}]}
+{"name":"oula_miner",
+"isFavorite":true,
+"items":[{"coin":"ALEO","pool_ssl":false,"wal_id":10333513,"dpool_ssl":false,
+"miner":"custom",
+"miner_alt":"oula_miner",
+"miner_config":{"url":"wss://aleo.oula.network:6666",
+"algo":"aleo",
+"miner":"oula_miner",
+"template":"%WAL%",
+"install_url":"http://23.106.143.181/oula/oula_miner-v0.3.0.tar.gz"},
+"pool_geo":[]}]}
 ```
 锄头下载链接为: [http://23.106.143.181/oula/oula_miner-v0.3.0.tar.gz](http://23.106.143.181/oula/oula_miner-v0.3.0.tar.gz)
 

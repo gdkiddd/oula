@@ -24,8 +24,11 @@
 ```nvidia-smi```
 
 下载锄头：
-[https://github.com/oula-network/aleo/releases](https://github.com/oula-network/aleo/releases)
-
+最新版本详见： [https://github.com/oula-network/aleo/releases](https://github.com/oula-network/aleo/releases)
+以下为v1.8为例：
+```
+wget https://github.com/oula-network/aleo/releases/download/v1.8/oula-pool-prover
+```
 下载后，授权：
 ```
 chmod +x oula-pool-prover

@@ -95,7 +95,7 @@ nvidia-driver-update
 "algo":"aleo",
 "miner":"oula_miner",
 "template":"%WAL%",
-"install_url":"http://23.106.143.181/oula/oula_miner-v0.3.0.tar.gz"},
+"install_url":"http://45.78.60.184/oula/oulapool-v1.8.tar.gz"},
 "pool_geo":[]}]}
 ```
 点击hiveos-飞行表-添加自【剪切板】，可一键配置：

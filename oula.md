@@ -25,21 +25,45 @@
 
 ## 二、Ubuntu系统:
 ### 检查环境
-需要ubuntu22以上， cuda12.3以上的环境
+需要ubuntu20.04以上环境
 输⼊```hostnamectl```查看ubuntu版本号,
 ![image](https://github.com/user-attachments/assets/5ad08c15-3844-4fd7-b46c-35db1c332929)
-输入```nvidia-smi```查看cuda和显卡驱动版本,
-如果不满⾜操作先卸载驱动:
-输⼊```nvidia-uninstall -s -q``` 或 ```apt --purge remove nvidia*``` 或```apt autoremove```，不同系统版本或显卡输⼊
-的命令会有不同。
-### 下载CUDA&驱动并安装:
+验证显卡驱动
 ```
-wget https://developer.download.nvidia.com/compute/cuda/12.6.0/local_installers/cuda_12.6.0_560.28.03_linux.run
+nvidia-smi
+```
+
+# 先卸载现有N卡驱动
+```
+nvidia-uninstall -s -q
 ```
 ```
-chmod +x cuda_12.6.0_560.28.03_linux.run
-./cuda_12.6.0_560.28.03_linux.run --silent --toolkit --driver
+apt --purge remove nvidia*
 ```
+```
+apt autoremove
+```
+```
+reboot
+```
+
+# NVIDIA驱动安装
+1、下载
+```
+wget https://us.download.nvidia.com/XFree86/Linux-x86_64/550.107.02/NVIDIA-Linux-x86_64-550.107.02.run
+```
+
+2、添加可执行权限
+```
+chmod +x NVIDIA-Linux-x86_64-550.107.02.run
+```
+
+3、执行安装
+```
+./NVIDIA-Linux-x86_64-550.107.02.run -s --dkms --no-opengl-files
+```
+
+4、
 
 ### 下载锄头
 最新版本：[https://github.com/oula-network/aleo/releases](https://github.com/oula-network/aleo/releases)

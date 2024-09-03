@@ -29,12 +29,12 @@
 输⼊```hostnamectl```查看ubuntu版本号,
 ![image](https://github.com/user-attachments/assets/5ad08c15-3844-4fd7-b46c-35db1c332929)
 
-验证显卡驱动
+验证显卡驱动，如果版本不是550以上，那就先卸载，再安装新驱动：
 ```
 nvidia-smi
 ```
 
-# 先卸载现有N卡驱动
+# 卸载现有N卡驱动
 ```
 nvidia-uninstall -s -q
 apt --purge remove nvidia*
@@ -42,7 +42,7 @@ apt autoremove
 reboot
 ```
 
-# NVIDIA驱动安装
+# NVIDIA新驱动安装
 1、下载
 ```
 wget https://us.download.nvidia.com/XFree86/Linux-x86_64/550.107.02/NVIDIA-Linux-x86_64-550.107.02.run
@@ -91,15 +91,18 @@ chmod +x oula-pool-prover
 hostnamectl
 ```
 
-如果ubuntu版本正确,则升级显卡驱动(必须!)
+如果ubuntu版本正确,则升级显卡驱动，必须先升级到550版本的显卡！
 ```
 nvidia-driver-update
 ```
+执行后会下载驱动，自动安装升级，需要一会，这里如果不成功卡住，重启后尝试多执行几次。
+
 
 ### 2️⃣ 添加钱包
 [https://the.hiveos.farm/wallets](https://the.hiveos.farm/wallets) ，输入aleo查找：
-钱包地址填你oula的挖矿账户名
-<img width="598" alt="image" src="https://github.com/user-attachments/assets/de7f1a51-fb24-40fa-9447-8b030636a4be">
+钱包地址：填你oula的挖矿子账户名
+<img width="594" alt="image" src="https://github.com/user-attachments/assets/23f579e7-8e91-48d6-a30d-5f3bc34b3cd1">
+
 
 ### 3️⃣ 添加飞行表：
 复制下面代码
@@ -124,16 +127,13 @@ nvidia-driver-update
 
 ### 4️⃣ 启动 hiveos飞行表
 
-运行前先升级hiveos显卡驱动
-```
-nvidia-driver-update
-```
 开机后从优盘启动系统，启动后会自动运行飞行表，自动下载oula程序并启动，
-如果启动后提示 github 程序下载失败， 可能是你没有翻墙。
 
-启动后过10分钟左右， 等算力稳定，以下为启动运行成功后，显示算力的画面：
+启动后过10分钟左右， 等算力稳定，以下为启动运行成功后显示算力的画面：
 
 ![telegram-cloud-photo-size-5-6194924926851466377-y](https://github.com/user-attachments/assets/758270a2-11d5-47b1-90d9-edddc5a0dc04)
+
+（算力会根据主网高度不同而波动，差异较大，要跑数小时可能才能获得峰值算力，可在oula后台查看）
 
 ## 其他:
 Aleo资讯: [https://fil8.top](https://fil8.top), 或关注公众号:怪盗KIDDD, 回复: aleo

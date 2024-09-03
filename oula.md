@@ -1,7 +1,7 @@
 
 ## [怪盗]Oula Aleo高性能锄头Ubuntu+HiveOS部署教程
 
-###📺怪盗oula锄头视频教程
+### 📺怪盗oula锄头视频教程
 （旧版的，新版本即将推出！）： 
 [https://www.youtube.com/watch?v=K4PSg9bZ6i0](https://www.youtube.com/watch?v=K4PSg9bZ6i0)
 
@@ -34,7 +34,7 @@
 nvidia-smi
 ```
 
-# 卸载现有N卡驱动
+### 卸载现有N卡驱动
 ```
 nvidia-uninstall -s -q
 apt --purge remove nvidia*
@@ -42,7 +42,7 @@ apt autoremove
 reboot
 ```
 
-# NVIDIA新驱动安装
+### NVIDIA新驱动安装
 1、下载
 ```
 wget https://us.download.nvidia.com/XFree86/Linux-x86_64/550.107.02/NVIDIA-Linux-x86_64-550.107.02.run

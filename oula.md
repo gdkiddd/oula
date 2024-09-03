@@ -95,13 +95,14 @@ nvidia-driver-update
 "algo":"aleo",
 "miner":"oula_miner",
 "template":"%WAL%",
-"install_url":"http://45.78.60.184/oula/oulapool-v1.8.tar.gz"},
+"install_url":"http://45.78.60.184/oula/oulapool-v1.8.1.tar.gz"},
 "pool_geo":[]}]}
 ```
 点击hiveos-飞行表-添加自【剪切板】，可一键配置：
 
 ![image](https://github.com/user-attachments/assets/7cc98dfb-3236-4172-9dfc-2718713dda63)
 输入飞行表名称， 创建飞行表后，就算成功了。
+
 
 ### 4️⃣ 启动 hiveos飞行表
 

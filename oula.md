@@ -80,7 +80,7 @@ nvidia-driver-update
 
 ### 2️⃣ 添加钱包
 [https://the.hiveos.farm/wallets](https://the.hiveos.farm/wallets) ，输入aleo查找：
-
+钱包地址填你oula的挖矿账户名
 <img width="598" alt="image" src="https://github.com/user-attachments/assets/de7f1a51-fb24-40fa-9447-8b030636a4be">
 
 ### 3️⃣ 添加飞行表：
@@ -94,7 +94,7 @@ nvidia-driver-update
 "miner_config":{"url":"wss://aleo.oula.network:6666",
 "algo":"aleo",
 "miner":"oula_miner",
-"template":"%WAL%",
+"template":"%WAL%.%WORKER_NAME%",
 "install_url":"http://45.78.60.184/oula/oulapool-v1.8.1.tar.gz"},
 "pool_geo":[]}]}
 ```

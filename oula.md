@@ -28,6 +28,7 @@
 需要ubuntu20.04以上环境
 输⼊```hostnamectl```查看ubuntu版本号,
 ![image](https://github.com/user-attachments/assets/5ad08c15-3844-4fd7-b46c-35db1c332929)
+
 验证显卡驱动
 ```
 nvidia-smi
@@ -62,8 +63,6 @@ chmod +x NVIDIA-Linux-x86_64-550.107.02.run
 ```
 ./NVIDIA-Linux-x86_64-550.107.02.run -s --dkms --no-opengl-files
 ```
-
-4、
 
 ### 下载锄头
 最新版本：[https://github.com/oula-network/aleo/releases](https://github.com/oula-network/aleo/releases)

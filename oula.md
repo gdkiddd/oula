@@ -37,14 +37,8 @@ nvidia-smi
 # 先卸载现有N卡驱动
 ```
 nvidia-uninstall -s -q
-```
-```
 apt --purge remove nvidia*
-```
-```
 apt autoremove
-```
-```
 reboot
 ```
 

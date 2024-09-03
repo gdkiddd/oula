@@ -24,8 +24,9 @@
 
 ## 二、Ubuntu系统:
 ### 检查环境
-需要ubuntu20.04以上环境
-输⼊```hostnamectl```查看ubuntu版本号,
+（重要！ 需要ubuntu22.04及以上）
+输⼊```hostnamectl```查看ubuntu版本号：
+
 ![image](https://github.com/user-attachments/assets/5ad08c15-3844-4fd7-b46c-35db1c332929)
 
 验证显卡驱动，如果版本不是550以上，那就先卸载，再安装新驱动：
@@ -79,11 +80,11 @@ chmod +x oula-pool-prover
 **********************************************************************************************************************************
 
 ## 三、HIVEOS部署流程:
-第一次用 HIVEOS的，看这里安装和启动:
+第一次用 HIVEOS的，看这里安装镜像和启动系统:
 
 [https://github.com/gdkiddd/oula/blob/main/hiveos_first.md](https://github.com/gdkiddd/oula/blob/main/hiveos_first.md)
 
-环境要求：hiveos-0.6-227-stable（Ubuntu 20.04）
+环境要求：hiveos-0.6-227-stable（必须Ubuntu 20.04及以上！）
 
 ### 1️⃣ 检查hiveos版本是否是基于Ubuntu 20.04:
 ```
@@ -99,7 +100,9 @@ nvidia-driver-update
 
 ### 2️⃣ 添加钱包
 [https://the.hiveos.farm/wallets](https://the.hiveos.farm/wallets) ，输入aleo查找：
+
 钱包地址：填你oula的挖矿子账户名
+
 <img width="594" alt="image" src="https://github.com/user-attachments/assets/23f579e7-8e91-48d6-a30d-5f3bc34b3cd1">
 
 
@@ -130,11 +133,20 @@ nvidia-driver-update
 
 启动后过10分钟左右， 等算力稳定，以下为启动运行成功后显示算力的画面：
 
-![telegram-cloud-photo-size-5-6194924926851466377-y](https://github.com/user-attachments/assets/758270a2-11d5-47b1-90d9-edddc5a0dc04)
+![IMG_6201](https://github.com/user-attachments/assets/378c81ec-5bf4-4a41-87cc-fbf73f8fe0ed)
 
-（算力会根据主网高度不同而波动，差异较大，要跑数小时可能才能获得峰值算力，可在oula后台查看）
+算力会根据主网高度不同而波动，差异较大，要跑数小时可能才能获得峰值算力，可在oula后台查看。
 
-## 其他:
+## Q&A答疑:
+1. 支持N卡和A100,H100， 暂不支持A卡。
+
+2. 只支持ubuntu和hiveos，不支持windows和wsl。
+
+3. 尽量避免不同型号GPU混插，以免出错。
+
+4. 机器最低配置：CPU4核，8G内存，否则可能无算力。
+
+5.其他资讯： 
 Aleo资讯: [https://fil8.top](https://fil8.top), 或关注公众号:怪盗KIDDD, 回复: aleo
 
 咨询怪盗:  [https://t.me/gdkiddd](https://t.me/gdkiddd)

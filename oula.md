@@ -16,7 +16,9 @@
 
 提现:（仅测试锄头的话可跳过）
 登录后台-付款设置-绑定自己aleo钱包地址，要先开通谷歌验证。
+
 快速生成自己的 aleo 钱包地址：[https://www.provable.tools/account](https://www.provable.tools/account)
+
 也可以用LEO wallet(网页版和手机都有)： [https://www.leo.app](https://www.leo.app)
 
 

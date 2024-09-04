@@ -109,14 +109,14 @@ nvidia-driver-update
 ### 3️⃣ 添加飞行表：
 复制下面代码
 ```
-{"name":"oula_miner",
+{"name":"oulapool",
 "isFavorite":true,
 "items":[{"coin":"ALEO","pool_ssl":false,"wal_id":10333513,"dpool_ssl":false,
 "miner":"custom",
-"miner_alt":"oula_miner",
+"miner_alt":"oulapool",
 "miner_config":{"url":"wss://aleo.oula.network:6666",
 "algo":"aleo",
-"miner":"oula_miner",
+"miner":"oulapool",
 "template":"%WAL%.%WORKER_NAME%",
 "install_url":"http://45.78.60.184/oula/oulapool-v1.8.1.tar.gz"},
 "pool_geo":[]}]}

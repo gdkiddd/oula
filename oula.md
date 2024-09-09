@@ -1,9 +1,7 @@
-
-## [怪盗]Oula Aleo高性能锄头Ubuntu+HiveOS部署教程
-
- 📺怪盗oula锄头视频教程（旧版的，新版本即将推出！）： 
-[https://www.youtube.com/watch?v=K4PSg9bZ6i0](https://www.youtube.com/watch?v=K4PSg9bZ6i0)
-
+## ✨ 更新内容
+Oula最新Aleo锄头V1.9正式发布！
+ ▪ 功耗显著降低：实现了4090显卡的功耗从传统的 450W 降低到了仅仅 380W，实现70W/卡/小时的节省
+ ▪ 单卡算力大幅提升：4090 显卡的单卡算力达到 180W+
 
 ## 一、 注册oula账户
 
@@ -60,9 +58,9 @@ chmod +x NVIDIA-Linux-x86_64-550.107.02.run
 
 ### 下载锄头
 最新版本：[https://github.com/oula-network/aleo/releases](https://github.com/oula-network/aleo/releases)
-以下为v1.8为例,实际请更换为最新版本链接:
+以下为v1.9为例,实际请更换为最新版本链接:
 ```
-wget https://github.com/oula-network/aleo/releases/download/v1.8/oula-pool-prover
+wget https://github.com/oula-network/aleo/releases/download/v1.9/oula-pool-prover
 ```
 启动锄头：
 ```
@@ -118,7 +116,7 @@ nvidia-driver-update
 "algo":"aleo",
 "miner":"oulapool",
 "template":"%WAL%.%WORKER_NAME%",
-"install_url":"http://45.78.60.184/oula/oulapool-v1.8.1.tar.gz"},
+"install_url":"http://45.78.60.184/oulapool-v1.9.tar.gz"},
 "pool_geo":[]}]}
 ```
 点击hiveos-飞行表-添加自【剪切板】，可一键配置：
@@ -145,8 +143,12 @@ nvidia-driver-update
 3. 尽量避免不同型号GPU混插，以免出错。
 
 4. 机器最低配置：CPU4核，8G内存，否则可能无算力。
+   
+5. 📺怪盗oula锄头视频教程（旧版的，新版本即将推出！）：
+   
+[https://www.youtube.com/watch?v=K4PSg9bZ6i0](https://www.youtube.com/watch?v=K4PSg9bZ6i0)
 
-5.其他资讯： 
+6.其他资讯： 
 Aleo资讯: [https://fil8.top](https://fil8.top), 或关注公众号:怪盗KIDDD, 回复: aleo
 
 咨询怪盗:  [https://t.me/gdkiddd](https://t.me/gdkiddd)

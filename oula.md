@@ -108,7 +108,12 @@ nvidia-driver-update
 
 
 ### 3️⃣ 添加飞行表：
-复制下面代码
+hiveos锄头地址为：
+```
+http://45.78.60.184/oulapool-v1.9.tar.gz
+```
+
+一键配置代码,复制：
 ```
 {"name":"oulapool",
 "isFavorite":true,
@@ -122,7 +127,7 @@ nvidia-driver-update
 "install_url":"http://45.78.60.184/oulapool-v1.9.tar.gz"},
 "pool_geo":[]}]}
 ```
-点击hiveos-飞行表-添加自【剪切板】，可一键配置：
+点击hiveos-飞行表-添加自【剪切板】，完成一键配置：
 
 ![image](https://github.com/user-attachments/assets/7cc98dfb-3236-4172-9dfc-2718713dda63)
 输入飞行表名称， 创建飞行表后，就算成功了。

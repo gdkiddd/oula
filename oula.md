@@ -19,9 +19,9 @@ Oula最新Aleo锄头V1.9正式发布！
 
 快速生成自己的 aleo 钱包地址：[https://www.provable.tools/account](https://www.provable.tools/account)
 
-也可以用LEO wallet(网页版和手机都有)： [https://www.leo.app](https://www.leo.app)
+或者fox wallet： [https://foxwallet.com/download](https://foxwallet.com/download)
 
-
+或LEO wallet： [https://www.leo.app](https://www.leo.app)
 
 ## 二、Ubuntu系统:
 ### 检查环境

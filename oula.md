@@ -9,6 +9,7 @@ Oula最新Aleo锄头V1.9正式发布！
 ## 一、 注册oula账户
 
 点击以下怪盗邀请链接注册 (收不到验证码的话, 可能在垃圾邮箱中)：
+
 [https://oula.network/zh/register?invitation=SDDV6L](https://oula.network/zh/register?invitation=SDDV6L)
 
 登录后台-子账户管理-添加一个子账户名,这个就是挖矿账户

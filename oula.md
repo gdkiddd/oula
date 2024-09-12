@@ -1,10 +1,3 @@
-## ✨ 更新内容
-Oula最新Aleo锄头V1.9正式发布！
-
- ▪ 功耗显著降低：实现了4090显卡的功耗从传统的 450W 降低到了仅仅 380W，实现70W/卡/小时的节省
- 
- ▪ 单卡算力大幅提升：4090 显卡的单卡算力达到 180W+
- 
 
 ## 一、 注册oula账户
 
@@ -62,9 +55,9 @@ chmod +x NVIDIA-Linux-x86_64-550.107.02.run
 
 ### 下载锄头
 最新版本：[https://github.com/oula-network/aleo/releases](https://github.com/oula-network/aleo/releases)
-以下为v1.9为例,实际请更换为最新版本链接:
+以下为举例,实际请更换为上面最新版本链接:
 ```
-wget https://github.com/oula-network/aleo/releases/download/v1.9/oula-pool-prover
+wget https://github.com/oula-network/aleo/releases/download/v1.10/oula-pool-prover
 ```
 启动锄头：
 ```
@@ -109,10 +102,6 @@ nvidia-driver-update
 
 
 ### 3️⃣ 添加飞行表：
-hiveos锄头地址为：
-```
-http://45.78.60.184/oulapool-v1.9.tar.gz
-```
 
 一键配置代码,复制：
 ```

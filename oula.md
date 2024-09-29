@@ -1,8 +1,10 @@
 
 ## 一、 注册oula账户
 
-点击以下怪盗邀请链接注册 (收不到验证码, 可能在垃圾邮箱中)：
-大算力客户请私信怪盗V: gdkiddd, 进VIP服务群
+点击以下怪盗邀请链接注册 (收不到验证码, 可能在垃圾邮箱中)
+
+大算力客户请私信怪盗V: gdkiddd, 进VIP服务群:
+
 [https://oula.network/zh/register?invitation=SDDV6L](https://oula.network/zh/register?invitation=SDDV6L)
 
 

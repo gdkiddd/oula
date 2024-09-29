@@ -1,14 +1,15 @@
 
 ## 一、 注册oula账户
 
-点击以下怪盗邀请链接注册 (收不到验证码的话, 可能在垃圾邮箱中)：
-
+点击以下怪盗邀请链接注册 (收不到验证码, 可能在垃圾邮箱中)：
+大算力客户请私信怪盗V: gdkiddd, 进VIP服务群
 [https://oula.network/zh/register?invitation=SDDV6L](https://oula.network/zh/register?invitation=SDDV6L)
+
 
 登录后台-子账户管理-添加一个子账户名,这个就是挖矿账户
 ![image](https://github.com/user-attachments/assets/5f1779c8-a7e3-4c8a-bae3-5f41ba87578d)
 
-提现:（仅测试锄头的话可跳过）
+提现方式:
 登录后台-付款设置-绑定自己aleo钱包地址，要先开通谷歌验证。
 
 快速生成自己的 aleo 钱包地址：[https://www.provable.tools/account](https://www.provable.tools/account)
@@ -57,7 +58,7 @@ chmod +x NVIDIA-Linux-x86_64-550.107.02.run
 最新版本：[https://github.com/oula-network/aleo/releases](https://github.com/oula-network/aleo/releases)
 以下为举例,实际请更换为上面最新版本链接:
 ```
-wget https://github.com/oula-network/aleo/releases/download/v1.10/oula-pool-prover
+wget https://github.com/oula-network/aleo/releases/download/v1.12/oula-pool-prover
 ```
 启动锄头：
 ```

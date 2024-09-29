@@ -44,7 +44,7 @@ nvidia-driver-update
 
 钱包地址：填你oula的挖矿子账户名
 
-<img width="594" alt="image" src="https://github.com/user-attachments/assets/23f579e7-8e91-48d6-a30d-5f3bc34b3cd1">
+![image](https://github.com/user-attachments/assets/839a9a27-d7dc-44d5-8ce2-4797627270f9)
 
 
 ### 3️⃣ 添加飞行表：
@@ -65,23 +65,27 @@ nvidia-driver-update
 ```
 点击hiveos-飞行表-添加自【剪切板】，完成一键配置：
 
+之后更新版本的话, 只要改install_url安装链接地址就可以了.
+![image](https://github.com/user-attachments/assets/ccf1ece9-0283-425d-8615-7d90aa3a56df)
+
+最后,输入飞行表名称， 创建飞行表后，就算成功了。
 ![image](https://github.com/user-attachments/assets/7cc98dfb-3236-4172-9dfc-2718713dda63)
-输入飞行表名称， 创建飞行表后，就算成功了。
 
 
 ### 4️⃣ 启动 hiveos飞行表
 
-开机后从优盘启动系统，启动后会自动运行飞行表，自动下载oula程序并启动，
+开机后从刻录好HIVE的优盘启动系统，启动到HIVE控制台后,会自动运行飞行表，自动下载oula程序并启动miner，
 
-启动后过10分钟左右， 等算力稳定，以下为启动运行成功后显示算力的画面：
+启动后过10分钟左右， 等算力稳定，以下为启动运行成功后显示算力的画面(示例图)：
 
 ![IMG_6201](https://github.com/user-attachments/assets/378c81ec-5bf4-4a41-87cc-fbf73f8fe0ed)
 
-算力会根据主网高度不同而波动，差异较大，要跑数小时可能才能获得峰值算力，可在oula后台查看。
+算力会根据主网高度不同而波动，差异较大，或要跑数小时可能才能获得峰值算力，可在oula后台查看算力情况。
 
 **********************************************************************************************************************************
 
 ## 三、Ubuntu系统部署:
+
 ### 检查环境
 （重要！ 需要ubuntu22.04及以上）
 输⼊```hostnamectl```查看ubuntu版本号：

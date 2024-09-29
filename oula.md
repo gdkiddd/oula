@@ -5,7 +5,7 @@
 
 [https://oula.network/zh/register?invitation=SDDV6L](https://oula.network/zh/register?invitation=SDDV6L)
 
-大算力客户请私信怪盗V: gdkiddd, 进VIP服务群:
+大算力客户请私怪盗: [https://t.me/gdkiddd](https://t.me/gdkiddd), 进VIP服务群享福利.
 
 登录后台-子账户管理-添加一个子账户名,这个就是挖矿账户
 ![image](https://github.com/user-attachments/assets/5f1779c8-a7e3-4c8a-bae3-5f41ba87578d)

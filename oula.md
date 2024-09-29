@@ -1,12 +1,11 @@
 
 ## 一、 注册oula账户
 
-点击以下怪盗邀请链接注册 (收不到验证码, 可能在垃圾邮箱中)
-
-大算力客户请私信怪盗V: gdkiddd, 进VIP服务群:
+点击以下链接注册 (收不到验证码, 可能在垃圾邮箱中)
 
 [https://oula.network/zh/register?invitation=SDDV6L](https://oula.network/zh/register?invitation=SDDV6L)
 
+大算力客户请私信怪盗V: gdkiddd, 进VIP服务群:
 
 登录后台-子账户管理-添加一个子账户名,这个就是挖矿账户
 ![image](https://github.com/user-attachments/assets/5f1779c8-a7e3-4c8a-bae3-5f41ba87578d)

@@ -19,64 +19,8 @@
 
 或LEO wallet： [https://www.leo.app](https://www.leo.app)
 
-## 二、Ubuntu系统:
-### 检查环境
-（重要！ 需要ubuntu22.04及以上）
-输⼊```hostnamectl```查看ubuntu版本号：
 
-![image](https://github.com/user-attachments/assets/5ad08c15-3844-4fd7-b46c-35db1c332929)
-
-验证显卡驱动，如果版本不是550以上，那就先卸载，再安装新驱动：
-```
-nvidia-smi
-```
-
-### 卸载现有N卡驱动
-```
-nvidia-uninstall -s -q
-apt --purge remove nvidia*
-apt autoremove
-reboot
-```
-
-### NVIDIA新驱动安装
-1、下载
-```
-wget https://us.download.nvidia.com/XFree86/Linux-x86_64/550.107.02/NVIDIA-Linux-x86_64-550.107.02.run
-```
-
-2、添加可执行权限
-```
-chmod +x NVIDIA-Linux-x86_64-550.107.02.run
-```
-
-3、执行安装
-```
-./NVIDIA-Linux-x86_64-550.107.02.run -s --dkms --no-opengl-files
-```
-
-### 下载锄头
-最新版本：[https://github.com/oula-network/aleo/releases](https://github.com/oula-network/aleo/releases)
-以下为举例,实际请更换为上面最新版本链接:
-```
-wget https://github.com/oula-network/aleo/releases/download/v1.12/oula-pool-prover
-```
-启动锄头：
-```
-chmod +x oula-pool-prover
-./oula-pool-prover --pool wss://aleo.oula.network:6666 --account kidcdf --worker-name worker01
-```
-（以上kidcdf为测试账号， 可换成你oula注册的子账户名）
-![image](https://github.com/user-attachments/assets/9d1aeb8b-0421-429e-be4f-cf4f70e73f66)
-
-启动后,等待⼏分钟后，可在Oula后台查看到算⼒情况.
-
-更多方法：
-[https://oula-faq.gitbook.io/zh/kai-shi-wa-kuang/publish-your-docs](https://oula-faq.gitbook.io/zh/kai-shi-wa-kuang/publish-your-docs)
-
-**********************************************************************************************************************************
-
-## 三、HIVEOS部署流程:
+## 二、HIVEOS部署流程:
 第一次用 HIVEOS的，看这里安装镜像和启动系统:
 
 [https://github.com/gdkiddd/oula/blob/main/hiveos_first.md](https://github.com/gdkiddd/oula/blob/main/hiveos_first.md)
@@ -134,6 +78,64 @@ nvidia-driver-update
 ![IMG_6201](https://github.com/user-attachments/assets/378c81ec-5bf4-4a41-87cc-fbf73f8fe0ed)
 
 算力会根据主网高度不同而波动，差异较大，要跑数小时可能才能获得峰值算力，可在oula后台查看。
+
+**********************************************************************************************************************************
+
+## 三、Ubuntu系统部署:
+### 检查环境
+（重要！ 需要ubuntu22.04及以上）
+输⼊```hostnamectl```查看ubuntu版本号：
+
+![image](https://github.com/user-attachments/assets/5ad08c15-3844-4fd7-b46c-35db1c332929)
+
+验证显卡驱动，如果版本不是550以上，那就先卸载，再安装新驱动：
+```
+nvidia-smi
+```
+
+### 卸载现有N卡驱动
+```
+nvidia-uninstall -s -q
+apt --purge remove nvidia*
+apt autoremove
+reboot
+```
+
+### NVIDIA新驱动安装
+1、下载
+```
+wget https://us.download.nvidia.com/XFree86/Linux-x86_64/550.107.02/NVIDIA-Linux-x86_64-550.107.02.run
+```
+
+2、添加可执行权限
+```
+chmod +x NVIDIA-Linux-x86_64-550.107.02.run
+```
+
+3、执行安装
+```
+./NVIDIA-Linux-x86_64-550.107.02.run -s --dkms --no-opengl-files
+```
+
+### 下载锄头
+最新版本：[https://github.com/oula-network/aleo/releases](https://github.com/oula-network/aleo/releases)
+以下为举例,实际请更换为上面最新版本链接:
+```
+wget https://github.com/oula-network/aleo/releases/download/v1.12/oula-pool-prover
+```
+启动锄头：
+```
+chmod +x oula-pool-prover
+./oula-pool-prover --pool wss://aleo.oula.network:6666 --account kidcdf --worker-name worker01
+```
+（以上kidcdf为测试账号， 可换成你oula注册的子账户名）
+![image](https://github.com/user-attachments/assets/9d1aeb8b-0421-429e-be4f-cf4f70e73f66)
+
+启动后,等待⼏分钟后，可在Oula后台查看到算⼒情况.
+
+更多方法：
+[https://oula-faq.gitbook.io/zh/kai-shi-wa-kuang/publish-your-docs](https://oula-faq.gitbook.io/zh/kai-shi-wa-kuang/publish-your-docs)
+
 
 ## Q&A答疑:
 1. 支持N卡和A100,H100， 暂不支持A卡。

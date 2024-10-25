@@ -60,7 +60,7 @@ nvidia-driver-update
 "algo":"aleo",
 "miner":"oulapool",
 "template":"%WAL%.%WORKER_NAME%",
-"install_url":"http://45.78.60.184/oula/oulapool-v1.13.1.tar.gz"},
+"install_url":"http://45.78.60.184/oula/oulapool-v1.14.tar.gz"},
 "pool_geo":[]}]}
 ```
 点击hiveos-飞行表-添加自【剪切板】，完成一键配置：

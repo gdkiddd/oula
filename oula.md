@@ -60,7 +60,7 @@ nvidia-driver-update
 "algo":"aleo",
 "miner":"oulapool",
 "template":"%WAL%.%WORKER_NAME%",
-"install_url":"http://45.78.60.184/oula/oulapool-v1.14.tar.gz"},
+"install_url":"http://45.78.60.184/oula/oulapool-v1.15.tar.gz"},
 "pool_geo":[]}]}
 ```
 点击hiveos-飞行表-添加自【剪切板】，完成一键配置：
@@ -125,7 +125,7 @@ chmod +x NVIDIA-Linux-x86_64-550.107.02.run
 最新版本：[https://github.com/oula-network/aleo/releases](https://github.com/oula-network/aleo/releases)
 以下为举例,实际请更换为上面最新版本链接!
 ```
-wget https://github.com/oula-network/aleo/releases/download/v1.13.1/oula-pool-prover
+wget https://github.com/oula-network/aleo/releases/download/v1.15/oula-pool-prover
 ```
 启动锄头：
 ```
